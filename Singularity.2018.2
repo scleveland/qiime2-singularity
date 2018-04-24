@@ -6,6 +6,8 @@ Include: yum
 %environment
 PATH=/opt/conda/envs/qiime2-2018.2/bin:/opt/conda/bin:$PATH
 export PATH
+mkdir /lus
+mkdir /lus/scratch
 
 %post
 yum update -y
